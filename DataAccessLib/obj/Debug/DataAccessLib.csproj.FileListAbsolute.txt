@@ -1,0 +1,5 @@
+E:\_CSharp_Projects\GitHub\BirdCount\DataAccessLib\bin\Debug\DataAccessLib.dll
+E:\_CSharp_Projects\GitHub\BirdCount\DataAccessLib\bin\Debug\DataAccessLib.pdb
+E:\_CSharp_Projects\GitHub\BirdCount\DataAccessLib\obj\Debug\DataAccessLib.csprojResolveAssemblyReference.cache
+E:\_CSharp_Projects\GitHub\BirdCount\DataAccessLib\obj\Debug\DataAccessLib.dll
+E:\_CSharp_Projects\GitHub\BirdCount\DataAccessLib\obj\Debug\DataAccessLib.pdb
