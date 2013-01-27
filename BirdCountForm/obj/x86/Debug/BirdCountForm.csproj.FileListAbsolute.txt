@@ -6,3 +6,5 @@ E:\_CSharp_Projects\GitHub\BirdCount\BirdCountForm\obj\x86\Debug\BirdCountForm.P
 E:\_CSharp_Projects\GitHub\BirdCount\BirdCountForm\obj\x86\Debug\BirdCountForm.csproj.GenerateResource.Cache
 E:\_CSharp_Projects\GitHub\BirdCount\BirdCountForm\obj\x86\Debug\BirdCountForm.exe
 E:\_CSharp_Projects\GitHub\BirdCount\BirdCountForm\obj\x86\Debug\BirdCountForm.pdb
+E:\_CSharp_Projects\GitHub\BirdCount\BirdCountForm\bin\Debug\DataAccessLib.dll
+E:\_CSharp_Projects\GitHub\BirdCount\BirdCountForm\bin\Debug\DataAccessLib.pdb
