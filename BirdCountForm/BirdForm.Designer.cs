@@ -32,7 +32,7 @@
             this.regionLabel = new System.Windows.Forms.Label();
             this.BirdCountDatePicker = new System.Windows.Forms.DateTimePicker();
             this.birdCountDatePickerLabel = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.birderComboBox = new System.Windows.Forms.ComboBox();
             this.birderLabel = new System.Windows.Forms.Label();
             this.birdTypeComboBox = new System.Windows.Forms.ComboBox();
             this.birdTypeLabel = new System.Windows.Forms.Label();
@@ -74,13 +74,13 @@
             this.birdCountDatePickerLabel.TabIndex = 3;
             this.birdCountDatePickerLabel.Text = "Date of Count:";
             // 
-            // comboBox1
+            // birderComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(50, 160);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 4;
+            this.birderComboBox.FormattingEnabled = true;
+            this.birderComboBox.Location = new System.Drawing.Point(50, 160);
+            this.birderComboBox.Name = "birderComboBox";
+            this.birderComboBox.Size = new System.Drawing.Size(121, 24);
+            this.birderComboBox.TabIndex = 4;
             // 
             // birderLabel
             // 
@@ -134,13 +134,14 @@
             this.Controls.Add(this.birdTypeLabel);
             this.Controls.Add(this.birdTypeComboBox);
             this.Controls.Add(this.birderLabel);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.birderComboBox);
             this.Controls.Add(this.birdCountDatePickerLabel);
             this.Controls.Add(this.BirdCountDatePicker);
             this.Controls.Add(this.regionLabel);
             this.Controls.Add(this.regionComboBox);
             this.Name = "birdCountForm";
             this.Text = "Bird Count";
+            this.Load += new System.EventHandler(this.birdCountForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numOfBirdsNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -153,7 +154,7 @@
         private System.Windows.Forms.Label regionLabel;
         private System.Windows.Forms.DateTimePicker BirdCountDatePicker;
         private System.Windows.Forms.Label birdCountDatePickerLabel;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox birderComboBox;
         private System.Windows.Forms.Label birderLabel;
         private System.Windows.Forms.ComboBox birdTypeComboBox;
         private System.Windows.Forms.Label birdTypeLabel;
