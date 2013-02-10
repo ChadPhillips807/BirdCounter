@@ -30,7 +30,7 @@
         {
             this.regionComboBox = new System.Windows.Forms.ComboBox();
             this.regionLabel = new System.Windows.Forms.Label();
-            this.BirdCountDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.birdCountDatePicker = new System.Windows.Forms.DateTimePicker();
             this.birdCountDatePickerLabel = new System.Windows.Forms.Label();
             this.birderComboBox = new System.Windows.Forms.ComboBox();
             this.birderLabel = new System.Windows.Forms.Label();
@@ -38,6 +38,8 @@
             this.birdTypeLabel = new System.Windows.Forms.Label();
             this.numOfBirdsNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.numOfBirdsLabel = new System.Windows.Forms.Label();
+            this.submitButton = new System.Windows.Forms.Button();
+            this.queryButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numOfBirdsNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,12 +60,12 @@
             this.regionLabel.TabIndex = 1;
             this.regionLabel.Text = "Region:";
             // 
-            // BirdCountDatePicker
+            // birdCountDatePicker
             // 
-            this.BirdCountDatePicker.Location = new System.Drawing.Point(50, 101);
-            this.BirdCountDatePicker.Name = "BirdCountDatePicker";
-            this.BirdCountDatePicker.Size = new System.Drawing.Size(240, 22);
-            this.BirdCountDatePicker.TabIndex = 2;
+            this.birdCountDatePicker.Location = new System.Drawing.Point(50, 101);
+            this.birdCountDatePicker.Name = "birdCountDatePicker";
+            this.birdCountDatePicker.Size = new System.Drawing.Size(240, 22);
+            this.birdCountDatePicker.TabIndex = 2;
             // 
             // birdCountDatePickerLabel
             // 
@@ -124,11 +126,33 @@
             this.numOfBirdsLabel.TabIndex = 9;
             this.numOfBirdsLabel.Text = "Number of Birds:";
             // 
+            // submitButton
+            // 
+            this.submitButton.Location = new System.Drawing.Point(215, 270);
+            this.submitButton.Name = "submitButton";
+            this.submitButton.Size = new System.Drawing.Size(75, 36);
+            this.submitButton.TabIndex = 10;
+            this.submitButton.Text = "Submit";
+            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
+            // 
+            // queryButton
+            // 
+            this.queryButton.Location = new System.Drawing.Point(317, 270);
+            this.queryButton.Name = "queryButton";
+            this.queryButton.Size = new System.Drawing.Size(75, 36);
+            this.queryButton.TabIndex = 11;
+            this.queryButton.Text = "Query";
+            this.queryButton.UseVisualStyleBackColor = true;
+            this.queryButton.Click += new System.EventHandler(this.queryButton_Click);
+            // 
             // birdCountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(573, 336);
+            this.Controls.Add(this.queryButton);
+            this.Controls.Add(this.submitButton);
             this.Controls.Add(this.numOfBirdsLabel);
             this.Controls.Add(this.numOfBirdsNumericUpDown);
             this.Controls.Add(this.birdTypeLabel);
@@ -136,7 +160,7 @@
             this.Controls.Add(this.birderLabel);
             this.Controls.Add(this.birderComboBox);
             this.Controls.Add(this.birdCountDatePickerLabel);
-            this.Controls.Add(this.BirdCountDatePicker);
+            this.Controls.Add(this.birdCountDatePicker);
             this.Controls.Add(this.regionLabel);
             this.Controls.Add(this.regionComboBox);
             this.Name = "birdCountForm";
@@ -152,7 +176,7 @@
 
         private System.Windows.Forms.ComboBox regionComboBox;
         private System.Windows.Forms.Label regionLabel;
-        private System.Windows.Forms.DateTimePicker BirdCountDatePicker;
+        private System.Windows.Forms.DateTimePicker birdCountDatePicker;
         private System.Windows.Forms.Label birdCountDatePickerLabel;
         private System.Windows.Forms.ComboBox birderComboBox;
         private System.Windows.Forms.Label birderLabel;
@@ -160,6 +184,8 @@
         private System.Windows.Forms.Label birdTypeLabel;
         private System.Windows.Forms.NumericUpDown numOfBirdsNumericUpDown;
         private System.Windows.Forms.Label numOfBirdsLabel;
+        private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.Button queryButton;
     }
 }
 
